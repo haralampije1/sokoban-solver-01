@@ -1,0 +1,8 @@
+# ignore
+out/
+*.log
+*.pid
+*.out
+*.tmp
+node_modules/
+.env
