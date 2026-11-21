@@ -1,7 +1,7 @@
 import{readFileSync as R,readdirSync as S,writeFileSync as wt,mkdirSync as M}from'node:fs';import{join as j}from'node:path';import * as fs from 'node:fs';
 
-const IN = process.env.IN;
-const OUT = process.env.OUT;
+const IN = process.env.MAKEFUN_INPUT_DIR;
+const OUT = process.env.MAKEFUN_OUTPUT_DIR;
 
 const DX = [0, 0, -1, 1];
 const DY = [-1, 1, 0, 0];
